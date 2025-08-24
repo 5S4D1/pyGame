@@ -77,7 +77,7 @@ def game_loop():
     key_up = False
     key_down = False
 
-    with open("D:\Visual Studio Code\python\Game\high_score.txt","r") as file:
+    with open("D:\Visual Studio Code\pyGame\high_score.txt","r") as file:
 
         high_score = file.read()
     
@@ -89,7 +89,7 @@ def game_loop():
 
         if game_over:
 
-            with open("D:\Visual Studio Code\python\Game\high_score.txt","w") as file:
+            with open("D:\Visual Studio Code\pyGame\high_score.txt","w") as file:
 
                 file.write(str(high_score))
                 
